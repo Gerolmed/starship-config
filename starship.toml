@@ -20,8 +20,10 @@ format = '[─\[](bold 32)[$branch(:$remote_branch)]($style)[\]](bold 32)'
 
 [hostname]
 ssh_only = false
-format = '[$ssh_symbol$hostname]($style)'
+ssh_symbol = '🌐'
+format = '[$hostname$ssh_symbol]($style)'
 style = "fg:210"
+
 
 [username]
 show_always = true
